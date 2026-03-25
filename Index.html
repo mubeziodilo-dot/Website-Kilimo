@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kilimo Bora - Mafunzo kwa Wakulima</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f0fff0;
+        }
+
+        /* MENU */
+        .menu {
+            background-color: #2e7d32;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .menu a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .menu a:hover {
+            text-decoration: underline;
+        }
+
+        /* SECTIONS */
+        .section {
+            padding: 40px 20px;
+        }
+
+        h1 {
+            color: #2e7d32;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        /* BOXES */
+        .box {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 700px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        img {
+            width: 250px;
+            border-radius: 10px;
+            margin: 15px 0;
+        }
+
+        button {
+            background-color: #2e7d32;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 15px;
+        }
+
+        button:hover {
+            background-color: #1b5e20;
+        }
+
+        ul {
+            text-align: left;
+        }
+
+        a.whatsapp-link {
+            color: #25d366;
+            font-weight: bold;
+        }
+
+        @media screen and (max-width: 600px) {
+            img {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- MENU -->
+<div class="menu">
+    <a href="#home">Home</a>
+    <a href="#kahawa">Kahawa</a>
+    <a href="#ndizi">Ndizi</a>
+    <a href="#conditions">Masharti</a>
+    <a href="#mbolea">Mbolea</a>
+    <a href="#magonjwa">Magonjwa</a>
+    <a href="#mafunzo">Mafunzo</a>
+    <a href="#contact">Contact</a>
+</div>
+
+<!-- HOME -->
+<div id="home" class="section box">
+    <h1>Kilimo Bora 🌱</h1>
+    <p>Karibu kwenye website ya mafunzo ya kilimo cha kahawa na ndizi. Hapa utapata elimu ya kilimo bora kwa wakulima.</p>
+</div>
+
+<!-- KAHAWA -->
+<div id="kahawa" class="section box">
+    <h1>Kahawa ☕</h1>
+    <img src="kahawa.jpg">
+    <p>Kahawa ni zao la biashara linaloingiza kipato kikubwa. Panda miche katika eneo lenye baridi na mvua ya kutosha.</p>
+</div>
+
+<!-- NDIZI -->
+<div id="ndizi" class="section box">
+    <h1>Ndizi 🍌</h1>
+    <img src="ndizi.jpg">
+    <p>Ndizi ni chakula muhimu na rahisi kulima. Panda katika udongo wenye rutuba na maji ya kutosha.</p>
+</div>
+
+<!-- CONDITIONS -->
+<div id="conditions" class="section box">
+    <h1>Masharti ya Kilimo 🌦️</h1>
+    <p><b>Kahawa:</b> Hali ya hewa baridi, mvua ya kutosha, udongo wenye rutuba.</p>
+    <p><b>Ndizi:</b> Joto la wastani, maji ya kutosha, udongo usiojaa maji.</p>
+</div>
+
+<!-- MBOLEA -->
+<div id="mbolea" class="section box">
+    <h1>Matumizi ya Mbolea 🌿</h1>
+    <p>Tumia mbolea za asili (samadi, mboji) na za viwandani (NPK) kwa uwiano sahihi kuongeza rutuba ya udongo.</p>
+</div>
+
+<!-- MAGONJWA -->
+<div id="magonjwa" class="section box">
+    <h1>Magonjwa ya Mazao 🦠</h1>
+    <p><b>Kahawa:</b> Ugonjwa wa kutu ya kahawa.</p>
+    <p><b>Ndizi:</b> Mnyauko wa ndizi.</p>
+    <p>Tumia dawa zinazofaa na panda miche bora kuzuia magonjwa.</p>
+</div>
+
+<!-- MAFUNZO -->
+<div id="mafunzo" class="section box">
+    <h1>Mafunzo kwa Wakulima 📚</h1>
+    <p>Hapa utajifunza jinsi ya kulima kahawa na ndizi kwa njia bora:</p>
+    <ul>
+        <li><b>Kahawa:</b> Panda miche katika eneo lenye baridi na mvua ya kutosha.</li>
+        <li><b>Ndizi:</b> Panda katika udongo wenye rutuba na maji ya kutosha.</li>
+        <li>Tumia mbolea za asili na viwandani kwa uwiano sahihi.</li>
+        <li>Angalia magonjwa mara kwa mara na tumia dawa zinazofaa.</li>
+        <li>Fanya mazoezi ya kipanda-mazao na mbinu za kisasa.</li>
+    </ul>
+    <button onclick="alert('Shukrani kwa kujiunga na mafunzo!')">
+        Jiunge na Mafunzo
+    </button>
+</div>
+
+<!-- CONTACT -->
+<div id="contact" class="section box">
+    <h1>Wasiliana Nasi 📞</h1>
+    <p>Kwa maswali au msaada zaidi kuhusu kilimo cha kahawa na ndizi, wasiliana nasi kupitia njia zifuatazo:</p>
+
+    <ul style="text-align:left; display:inline-block; max-width:600px;">
+        <li><b>Simu:</b> +255 758751012</li>
+        <li><b>Email:</b> mubeziodilo@gmail.com</li>
+        <li><b>WhatsApp:</b> <a class="whatsapp-link" href="https://wa.me/255758751012" target="_blank">Tuma ujumbe sasa</a></li>
+    </ul>
+
+    <button onclick="alert('Asante kwa kuwasiliana nasi!')">
+        Tuma Ujumbe
+    </button>
+</div>
+
+</body>
+</html>
